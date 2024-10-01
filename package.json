@@ -1,8 +1,7 @@
 {
-  "name": "reveal.js",
-  "version": "5.1.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
+  "name": "slides",
+  "version": "0.1.0",
+  "description": "presentation for non fungible docs",
   "subdomain": "revealjs",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
@@ -13,16 +12,16 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Bosky"
+    "email": "nonfungibledocs@gmail.com",
+    "web": "https://nonfungibledocs.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/nonfungibledocs/slides"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "keywords": [
     "reveal",
