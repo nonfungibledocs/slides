@@ -20,94 +20,115 @@
 	<body>
 
 		<div class="reveal">
-
 			<div class="slides">
-
-				<!-- <section>
-					<img src="./assets/nfd-logo.png" />
-					<i>scroll or press for more</i>
-				</section> -->
-				<section data-background-video-muted data-background-video-loop="loop" data-background-color="white" data-background-video="./assets/video1.mp4">
+				<section>
+					<h1>The state of Document Security</h1>
+					
+					With over 1,800 data breaches in the U.S. in 2022 alone
+					<br>
+					Email data leaks present serious risks to companies, leading to financial loss, reputation harm, and legal issues.					
+					
+					<i>
+						<br/> 
+						scroll or press for more
+					</i>
 					
 				</section>
+				
 				<section>
+					<h1>Traditional methods</h1>
 					<ul>
-						<li>The average A4 document contains 500 words.</li>
+						<li>
+							A page of the average document contains 500 words.
+						</li>
+						<li>
+							NDAs and basic encryption are inadequate in tracing the source of leaks. 
+						</li>
+						<li class="fragment fade-left">
+							Is there a better way?
+						</li>
+					</ul>
+					
+					<i>
+						<br/> 
+						scroll or press for more
+					</i>
+				</section>
+				
+				<section>
+					<img src="./assets/nfd-logo.png" />
+					<br /><i>scroll or press for more</i>
+				</section> 
+
+				<section>
+					<h1>Proposed</h1>
+					<ul>
+					<li>
+						Uses multivariate tech and large language models (LLMs) to create unique document versions for each recipient
+					</li>
+					<li>
+						This technology allows to detect the source of the leak.
+					</li>
 					</ul>
 				</section>
-				<section data-background="indigo">
-					<img style="position: fixed;text-align: center;" src="./assets/nfd-logo.png" />
-					<small style="font-size:0.35em"><i>scroll or press for more</i></small>
-					<br />
-					<ul>
-						<li class="fragment fade-left">The average A4 document contains 500 words.</li>
-					</ul>
-				</section>
-				<section data-background-color="#fff"><h2>Scrollbar inverts<br>based on slide bg</h2></section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<h2>Auto-Animate</h2>
-					<p>Scroll triggered auto-animations 😍</p>
-					<div class="r-hstack justify-center">
-						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-					</div>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-hstack justify-center">
-						<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
-						<div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-					<div class="r-stack">
-						<div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
-						<div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
-						<div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
-					</div>
-					<h2 style="margin-top: 20px;">Auto-Animate</h2>
-				</section>
-				<section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)" id="gradient-bg">
-					<h2 data-id="code-title">Code highlights,<br />meet scroll triggers</h2>
-					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						import React, { useState } from 'react';
 
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-
-						function SecondExample() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-					</script></code></pre>
+				<!-- <section class="full" style="width:100vw !important;">
+					<iframe data-autoplay style="width:100vw !important;" 
+					height="500" 
+					src="https://nonfungibledocsstatic.onrender.com/header.html" 
+					src="./minicar.html" 
+					frameborder="0"></iframe>
+					<br /><i>scroll or press for more</i>
+				</section> -->
+				
+				<!-- <section class="full" style="width:100vw;">
+					<iframe data-autoplay style="width:100vw" height="540" 
+					src="http://localhost:8080/" frameborder="0"></iframe>
+					<br /><i>scroll or press for more</i>
+				</section> -->
+				<section data-background-video-muted data-background-video-loop="loop" data-background-color="white" data-background-video="./assets/video1.mp4">
+					<i>
+						The average A4 document contains 500 words.
+						<br/> 
+						scroll or press for more
+					</i>
 				</section>
-				<section class="stack">
-          <section data-background="https://static.slid.es/reveal/image-placeholder.png" id="image-bg">
-            <h2>Image Backgrounds</h2>
-          </section>
+				<section>
+					<h1>Documents need to be Confidential</h1>
+					<p>
+						Email data leaks present serious risks to companies, leading to financial loss, reputation harm, and legal issues. 
+					</p>
+				</section>
+				<section>
+					<h1>Tracing the source of leaks</h1>
+					<p>
+						Traditional methods like NDAs and basic encryption are inadequate in tracing the source of leaks. 
+						There is an urgent need for advanced solutions that can detect and prevent leaks proactively. 
+					</p>
+				</section>
+
+				<section>
+					<h1>NLP, LLMs</h1>
+					The proposed AI-driven solution uses multivariate testing and large language models (LLMs) to create unique document versions for each employee, allowing for precise identification of leak sources. This technology allows to detect the source of the leak, thereby giving confidence to stakeholders of the repercussions of a leak, and is designed to start with documents and emails before expanding to other sensitive data.
+				</section>
+
+				<section>
+					<img src="./assets/table.png" />
+					<br /><i>scroll or press for more</i>
+				</section>
+				<section>
+					<img src="./assets/arch.png" />
+					<br /><i>scroll or press for more</i>
+				</section>
+				<section>
+					<iframe data-autoplay style="width:100vw;background:white;" height="540" src="http://localhost:8080/app.html" frameborder="0"></iframe>
+					<br /><i>scroll or press for more</i>
+				</section>
+				
+				
           
         </section>
-				<section><h2>The end</h2></section>
+				<section><h2>https://nonfungibledocs.com/talk</h2></section>
 
 			</div>
 
