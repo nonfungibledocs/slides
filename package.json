@@ -12,20 +12,19 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Bosky"
+    "name": "Bosky",
     "email": "nonfungibledocs@gmail.com",
     "web": "https://nonfungibledocs.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nonfungibledocs/slides"
+    "url": "git://github.com/nonfungibledocs/slides.git"
   },
   "engines": {
     "node": ">=20.0.0"
   },
   "keywords": [
-    "reveal",
-    "slides",
+    "nonfungibledocs",
     "presentation"
   ],
   "devDependencies": {
